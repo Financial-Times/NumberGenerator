@@ -3,23 +3,23 @@
  <servers>
     <server>
       <id>Nexus</id>
-      <username>deployment</username>
-      <password>ftnexus</password>
+      <username>SONATYPE_USER</username>
+      <password>SONATYPE_PASSWORD</password>
     </server>
     <server>
       <id>nexus-public-snapshots</id>
-      <username>deployment</username>
-      <password>ftnexus</password>
+      <username>SONATYPE_USER</username>
+      <password>SONATYPE_PASSWORD</password>
     </server>
    <server>
       <id>releases</id>
-      <username>deployment</username>
-      <password>ftnexus</password>
+      <username>SONATYPE_USER</username>
+      <password>SONATYPE_PASSWORD</password>
     </server>
    <server>
       <id>snapshots</id>
-      <username>deployment</username>
-      <password>ftnexus</password>
+      <username>SONATYPE_USER</username>
+      <password>SONATYPE_PASSWORD</password>
     </server>
 </servers>
 <mirrors>
