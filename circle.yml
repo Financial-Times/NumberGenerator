@@ -1,0 +1,13 @@
+machine:
+    java:
+        version: 1.8
+    timezone:
+        Europe/London
+
+dependencies:
+    override:
+        - mvn dependency:resolve -s settings.xml
+
+test:
+    override:
+        - mvn deploy -s settings.xml
