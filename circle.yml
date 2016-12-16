@@ -1,6 +1,6 @@
 machine:
     java:
-        version: 1.8
+        version: oraclejdk8
     timezone:
         Europe/London
 
